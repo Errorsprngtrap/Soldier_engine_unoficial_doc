@@ -29,7 +29,7 @@ duration (float, optional): The time before the bone disappears. Default value: 
 
 #### Example : 
 ```gdscript
-a_vars.attack_manager.bone(0,Vector2(0,325),3,0,40,0,60,0,false,-1)
+a_vars.attack_manager.bone(0,Vector2(0,325),3,0,40,0,60,0,true,-1)
 ```
 
 the last value "-1" is not needed since the function automatically put -1 if we don't put any value
@@ -93,3 +93,40 @@ duration (float, optional): The time before the bone disappears. Default value: 
 ```gdscript
 a_vars.attack_manager.bone_circle(0,Vector2(320,320),30,60,20,true,-1)
 ```
+
+________________________________________________________________________
+
+# bone_stab(type, position, length, height, wait_time, up_time bone_rotation, masked)
+##### Description: 
+Spawns a bone stab/bone zone at a specified location.
+
+#### Parameters:
+type(bullet.e_type) : define the color of the attack
+- 0 = normal attack
+- 1 = blue attack
+- 2 = fake blue attack
+- 3 = orange attack
+- 4 = Untouchable (not tested so far)
+
+position (Vector2): The center position.
+
+length (float): The length of the zone.
+
+height (float): The height of the zone.
+
+wait_time (float): Time before the bone appears.
+
+up_time (float): Duration the bone remains active.
+
+rotation_speed (float): The speed the bone circle rotate at.
+
+masked (bool, optional): If true, the bone will not be visible outside the battle box.
+
+#### Example : 
+```gdscript
+a_vars.attack_manager.bone_stab(0,Vector2(244,390),200,60,60,30,0,true)
+```
+
+________________________________________________________________________
+
+
