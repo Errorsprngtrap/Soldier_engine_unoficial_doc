@@ -37,6 +37,9 @@ the last value "-1" is not needed since the function automatically put -1 if we 
 (false for masked should only be used for testing or attack that need to be visible from outside the box)
 
 __________________________________________________________________
+
+________________________________________________________________________
+
 # bone_gravity(type, position, bone_count, offset_bottom, masked, duration:)
 ##### Description: 
 Spawns multiple bones that fall with gravity.
@@ -65,6 +68,9 @@ a_vars.attack_manager.bone_gravity(0,Vector2(320,200),20,20,false,-1)
 ```
 
 ________________________________________________________________________
+
+________________________________________________________________________
+
 # bone_circle(type, position, bone_count, radius, rotation_speed, masked, duration)
 ##### Description: 
 Spawns bones in a circular pattern around a central point.
@@ -93,6 +99,9 @@ duration (float, optional): The time before the bone disappears. Default value: 
 ```gdscript
 a_vars.attack_manager.bone_circle(0,Vector2(320,320),30,60,20,true,-1)
 ```
+
+________________________________________________________________________
+
 
 ________________________________________________________________________
 
@@ -128,5 +137,27 @@ a_vars.attack_manager.bone_stab(0,Vector2(244,390),200,60,60,30,0,true)
 ```
 
 ________________________________________________________________________
+
+
+
+
+________________________________________________________________________
+
+# throw(direction: float = 0, fall_speed: float = 750)
+##### Description: 
+Throws the player's soul in the specified direction.
+
+#### Parameters:
+direction (float)  : The direction of the throw.
+
+fall_speed (float) : The force of the throw.
+#### Example : 
+```gdscript
+a_vars.attack_manager.throw(90,90)
+```
+
+direction should use : 0 / 90 / 180 / 270 / 360 and nothing else
+fall speed is set to a base value of 750.0 so your not forced to had an argument to fall speed
+
 
 
