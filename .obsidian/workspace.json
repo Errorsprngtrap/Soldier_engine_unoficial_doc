@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Battle/Attack/\"Attack\".md",
+                "file": "Battle/Attack_Example/Blaster Circle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "\"Attack\""
+              "title": "Blaster Circle"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 312.5
   },
   "right": {
     "id": "c047bc2f52b8b320",
@@ -170,8 +170,11 @@
   },
   "active": "e76bbcab68cebbf6",
   "lastOpenFiles": [
-    "Battle/BattleBox/Box Function.md",
+    "Battle/Attack_Example/Attack that change color.md",
+    "Battle/Attack_Example/Blaster Circle.md",
+    "Battle/Attack_Example/Growing Bone.md",
     "Battle/Attack/\"Attack\".md",
+    "Battle/BattleBox/Box Function.md",
     "Battle/Attack_Example",
     "Summary.md",
     "Battle/BattleBox/Untitled",
