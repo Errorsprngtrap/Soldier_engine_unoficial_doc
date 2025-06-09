@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8d04e4f92d49ed8",
+        "id": "57162a5074b08e0c",
         "type": "tabs",
         "children": [
           {
-            "id": "e76bbcab68cebbf6",
+            "id": "ad546ec97edf6e1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Battle/Attack_Example/Blaster Circle.md",
+                "file": "Battle/Attack_Example/Auto aim blaster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blaster Circle"
+              "title": "Auto aim blaster"
             }
           }
         ]
@@ -168,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e76bbcab68cebbf6",
+  "active": "ad546ec97edf6e1f",
   "lastOpenFiles": [
     "Battle/Attack_Example/Attack that change color.md",
+    "Battle/Attack_Example/Auto aim blaster.md",
     "Battle/Attack_Example/Blaster Circle.md",
     "Battle/Attack_Example/Growing Bone.md",
     "Battle/Attack/\"Attack\".md",
